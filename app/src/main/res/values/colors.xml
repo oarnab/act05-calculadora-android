@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="calc_bg">#17171C</color>
+
+    <color name="btn_number">#2E2F3E</color>
+    <color name="text_number">#FFFFFF</color>
+
+    <color name="btn_function">#4E505F</color>
+    <color name="text_function">#D1D5DB</color>
+
+    <color name="btn_operator">#4B5EFC</color>
+    <color name="text_operator">#FFFFFF</color>
+
+    <color name="btn_equals">#10B981</color>
+</resources>

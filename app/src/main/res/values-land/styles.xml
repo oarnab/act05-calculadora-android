@@ -5,7 +5,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CalculatorButton.Number">
+    <style name="CalculatorButtonNumber">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_margin">2dp</item>
         <item name="cornerRadius">16dp</item>
@@ -14,7 +14,7 @@
         <item name="backgroundTint">@color/btn_number</item>
     </style>
 
-    <style name="CalculatorButton.Function">
+    <style name="CalculatorButtonFunction">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_margin">2dp</item>
         <item name="cornerRadius">16dp</item>
@@ -23,7 +23,7 @@
         <item name="backgroundTint">@color/btn_function</item>
     </style>
 
-    <style name="CalculatorButton.Clear">
+    <style name="CalculatorButtonClear">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_margin">2dp</item>
         <item name="cornerRadius">16dp</item>
@@ -33,7 +33,7 @@
         <item name="backgroundTint">@color/btn_function</item>
     </style>
 
-    <style name="CalculatorButton.Operator">
+    <style name="CalculatorButtonOperator">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_margin">2dp</item>
         <item name="cornerRadius">16dp</item>
@@ -42,7 +42,7 @@
         <item name="backgroundTint">@color/btn_operator</item>
     </style>
 
-    <style name="CalculatorButton.Equals">
+    <style name="CalculatorButtonEquals">
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_margin">2dp</item>
         <item name="cornerRadius">16dp</item>

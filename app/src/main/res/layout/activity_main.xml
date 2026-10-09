@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,13 +16,11 @@
         android:padding="16dp">
 
         <TextView
+            style="@style/CalculatorResult"
             android:id="@+id/txtResultat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_0"
-            android:textColor="#FFFFFF"
-            android:textSize="54sp"
-            android:textStyle="bold" />
+            android:text="@string/_0" />
     </LinearLayout>
 
     <TableLayout
@@ -38,44 +35,24 @@
             android:layout_weight="1">
 
             <Button
+                style="@style/CalculatorButton.Function"
                 android:id="@+id/buttonM1"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="M-"
-                android:textColor="@color/text_function"
-                android:textSize="18sp"
-                app:backgroundTint="@color/btn_function"
-                app:cornerRadius="16dp" />
+                android:text="M-" />
 
             <Button
+                style="@style/CalculatorButton.Function"
                 android:id="@+id/buttonM2"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="M+"
-                android:textColor="@color/text_function"
-                android:textSize="18sp"
-                app:backgroundTint="@color/btn_function"
-                app:cornerRadius="16dp" />
+                android:text="M+" />
 
             <Button
+                style="@style/CalculatorButton.Function"
                 android:id="@+id/buttonM3"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="MC"
-                android:textColor="@color/text_function"
-                android:textSize="18sp"
-                app:backgroundTint="@color/btn_function"
-                app:cornerRadius="16dp" />
+                android:text="MC" />
 
             <Button
+                style="@style/CalculatorButton.Function"
                 android:id="@+id/buttonM4"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="MR"
-                android:textColor="@color/text_function"
-                android:textSize="18sp"
-                app:backgroundTint="@color/btn_function"
-                app:cornerRadius="16dp" />
+                android:text="MR" />
         </TableRow>
 
         <TableRow
@@ -84,44 +61,24 @@
             android:layout_weight="1">
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button7"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="7"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="7" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button8"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="8"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="8" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button9"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="9"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="9" />
 
             <Button
+                style="@style/CalculatorButton.Operator"
                 android:id="@+id/buttonDividir"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="/"
-                android:textColor="@color/text_operator"
-                android:textSize="24sp"
-                app:backgroundTint="@color/btn_operator"
-                app:cornerRadius="16dp" />
+                android:text="/" />
         </TableRow>
 
         <TableRow
@@ -130,44 +87,24 @@
             android:layout_weight="1">
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button4"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="4"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="4" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button5"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="5"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="5" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button6"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="6"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="6" />
 
             <Button
+                style="@style/CalculatorButton.Operator"
                 android:id="@+id/buttonX"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="×"
-                android:textColor="@color/text_operator"
-                android:textSize="24sp"
-                app:backgroundTint="@color/btn_operator"
-                app:cornerRadius="16dp" />
+                android:text="×" />
         </TableRow>
 
         <TableRow
@@ -176,44 +113,24 @@
             android:layout_weight="1">
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button1"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="1"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="1" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button2"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="2"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="2" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button3"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="3"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="3" />
 
             <Button
+                style="@style/CalculatorButton.Operator"
                 android:id="@+id/buttonResta"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="-"
-                android:textColor="@color/text_operator"
-                android:textSize="24sp"
-                app:backgroundTint="@color/btn_operator"
-                app:cornerRadius="16dp" />
+                android:text="-" />
         </TableRow>
 
         <TableRow
@@ -222,45 +139,24 @@
             android:layout_weight="1">
 
             <Button
+                style="@style/CalculatorButton.Clear"
                 android:id="@+id/buttonC"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="C"
-                android:textColor="#EF4444"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:backgroundTint="@color/btn_function"
-                app:cornerRadius="16dp" />
+                android:text="C" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/button0"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="0"
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="0" />
 
             <Button
+                style="@style/CalculatorButton.Number"
                 android:id="@+id/buttonComma"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="." 
-                android:textColor="@color/text_number"
-                android:textSize="22sp"
-                app:backgroundTint="@color/btn_number"
-                app:cornerRadius="16dp" />
+                android:text="." />
 
             <Button
+                style="@style/CalculatorButton.Operator"
                 android:id="@+id/buttonMes"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
-                android:text="+"
-                android:textColor="@color/text_operator"
-                android:textSize="24sp"
-                app:backgroundTint="@color/btn_operator"
-                app:cornerRadius="16dp" />
+                android:text="+" />
         </TableRow>
 
         <TableRow
@@ -269,27 +165,17 @@
             android:layout_weight="1">
 
             <Button
+                style="@style/CalculatorButton.Function"
                 android:id="@+id/buttonDelete"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
                 android:layout_span="2"
                 android:contentDescription="Eliminar último carácter"
-                android:text="⌫"
-                android:textColor="@color/text_function"
-                android:textSize="24sp"
-                app:backgroundTint="@color/btn_function"
-                app:cornerRadius="16dp" />
+                android:text="⌫" />
 
             <Button
+                style="@style/CalculatorButton.Equals"
                 android:id="@+id/buttonIgual"
-                android:layout_height="match_parent"
-                android:layout_margin="6dp"
                 android:layout_span="2"
-                android:text="="
-                android:textColor="@color/black"
-                android:textSize="26sp"
-                app:backgroundTint="@color/btn_equals"
-                app:cornerRadius="16dp" />
+                android:text="=" />
         </TableRow>
     </TableLayout>
 
